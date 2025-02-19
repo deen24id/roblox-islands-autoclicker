@@ -1,3 +1,5 @@
+#SingleInstance
+
 MyGui := Gui("+AlwaysOnTop", "Test")
 RadioGroups := {}
 global on := false
