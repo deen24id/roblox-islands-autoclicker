@@ -45,23 +45,8 @@ ClickButtonStart(*) {
 			Sleep 100
 		}
 		if (RadioRepeatJump.Value) {
-			MouseMove 1000, 0, 90, "R"
-			Sleep 2000
-			Click
-			Sleep 2000
-			Click
-			Sleep 2000
-			Send '{Space}'
-			Sleep 2000
-			MouseMove -1000, 0, 90, "R"
-			Sleep 2000
-			Click
-			Sleep 2000
-			Click
-			Sleep 2000
-			Send '{Space}'
-			Sleep 2000
-
+			Send "{Space}"
+			Sleep 100
 		}
 
 	}
