@@ -60,5 +60,5 @@ ClickButtonStop(*) {
 
 }
 
-^Enter:: ClickButtonStart
-^Esc:: ClickButtonStop
++Enter:: ClickButtonStart
++Esc:: ClickButtonStop
