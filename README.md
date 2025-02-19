@@ -16,5 +16,5 @@ This script enables you to automate:
 - Basic auto clicker and repeat jump.
 
 Despite that you can click `start` or `end` button manually,
-it is better to enter keyboard shortcut `shift + enter` or `shift + escape`.
+it is better to use the keyboard shortcut `shift + enter` or `shift + escape`.
 You may know this information by reading this while I figure out how to add tooltip to the GUI.
