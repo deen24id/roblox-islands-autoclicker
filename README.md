@@ -2,7 +2,11 @@
 
 This is my [AutoHotkey](https://www.autohotkey.com/) script for [Roblox Islands](https://www.roblox.com/games/4872321990/Islands)
 
-You have to download the [AutoHotkey V2](https://www.autohotkey.com/download/ahk-v2.exe) first, and run the scipt with that program.
+How to use the script:
+
+1. Download the [AutoHotkey V2](https://www.autohotkey.com/download/ahk-v2.exe) first, and
+2. Either clone this repo or simply download script `main.ahk` file.
+3. Run the script with the AutoHotkey program.
 
 This script enables you to automate:
 
