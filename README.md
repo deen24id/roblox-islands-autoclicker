@@ -17,4 +17,4 @@ This script enables you to automate:
 
 Despite that you can click `start` or `end` button manually,
 it is better to use the keyboard shortcut `shift + enter` or `shift + escape`.
-You may know this information by reading this while I figure out how to add tooltip to the GUI.
+You may know this information by reading this README while I figure out how to add tooltip to the GUI.
