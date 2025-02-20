@@ -6,7 +6,7 @@ MyGui := Gui("+AlwaysOnTop", "Test")
 
 RadioGroups := {}
 MyGui.AddGroupBox("xm  w120 h120 Section", "Action:")
-RadioFlowerWater := MyGui.AddRadio("vFlowerWater xs+10 yp+20 w100 Checked Group", "Water Flower")
+RadioFlowerFarm := MyGui.AddRadio("vFlowerWater xs+10 yp+20 w100 Checked", "Flower Farm")
 RadioFlowerHarvest := MyGui.AddRadio("vFlowerHarvest xs+10 yp+20 wp ", "Harvest Flower")
 RadioSpiritCrystal := MyGui.AddRadio("vSpiritCrystal xs+10 yp+20 wp", "Spirit Crystal")
 RadioBasicAuto := MyGui.AddRadio("vBasicAuto xs+10 yp+20 wp", "Basic Auto")
@@ -27,12 +27,15 @@ ClickButtonStart(*) {
 
 	while on {
 		if (RadioFlowerWater.Value) {
-			Click
-			Sleep 100
-		}
-		if (RadioFlowerHarvest.value) {
+			;You may need to adjust the numbers for your own setup
+			Click "Down"
+			Sleep 60
+			Click "Up"
+			MouseMove 0, -60, 0, "R"
+			Sleep 120
 			Send 'F'
-			Sleep 100
+			Sleep 120
+			MouseMove 0, 60, 0, "R"
 		}
 		if (RadioSpiritCrystal.value) {
 			Click
