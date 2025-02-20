@@ -5,7 +5,7 @@ This is my [AutoHotkey](https://www.autohotkey.com/) script for [Roblox Islands]
 How to use the script:
 
 1. Download the [AutoHotkey V2](https://www.autohotkey.com/download/ahk-v2.exe).
-2. Either clone this repo or simply download script `main.ahk` file from the latest [release](https://github.com/deen24id/roblox-islands-autoclicker/releases).
+2. Either [clone this repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or simply download script `main.ahk` file from the latest [release](https://github.com/deen24id/roblox-islands-autoclicker/releases).
 3. Run the script with the AutoHotkey program.
 
 This script enables you to automate:
