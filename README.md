@@ -1,8 +1,12 @@
 # Roblox Islands Autoclicker
 
+![AFK Spirit Crystal Farm](/spirit-crystal.gif)
+
 This is my [AutoHotkey](https://www.autohotkey.com/) script for [Roblox Islands](https://www.roblox.com/games/4872321990/Islands)
 
-How to use the script:
+You can simply download and run the executables `main.exe` from the latest [release](https://github.com/deen24id/roblox-islands-autoclicker/releases).
+
+Or, you can follow these steps to run the `main.ahk` script:
 
 1. Download the [AutoHotkey V2](https://www.autohotkey.com/download/ahk-v2.exe).
 2. Either [clone this repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or simply download script `main.ahk` file from the latest [release](https://github.com/deen24id/roblox-islands-autoclicker/releases).
