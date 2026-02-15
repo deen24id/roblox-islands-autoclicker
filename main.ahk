@@ -7,7 +7,6 @@ MyGui := Gui("+AlwaysOnTop", "Test")
 RadioGroups := {}
 MyGui.AddGroupBox("xm  w120 h120 Section", "Action:")
 RadioFlowerFarm := MyGui.AddRadio("vFlowerWater xs+10 yp+20 w100 Checked", "Flower Farm")
-RadioFlowerHarvest := MyGui.AddRadio("vFlowerHarvest xs+10 yp+20 wp ", "Harvest Flower")
 RadioSpiritCrystal := MyGui.AddRadio("vSpiritCrystal xs+10 yp+20 wp", "Spirit Crystal")
 RadioBasicAuto := MyGui.AddRadio("vBasicAuto xs+10 yp+20 wp", "Basic Auto")
 RadioRepeatJump := MyGui.AddRadio("vRadioRepeatJump xs+10 yp+20 wp", "Repeat Jump")
@@ -26,7 +25,7 @@ ClickButtonStart(*) {
 	MyGui["Stop"].Enabled := true
 
 	while on {
-		if (RadioFlowerWater.Value) {
+		if (RadioFlowerFarm.Value) {
 			;You may need to adjust the numbers for your own setup
 			Click "Down"
 			Sleep 60
